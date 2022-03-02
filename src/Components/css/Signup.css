@@ -1,0 +1,25 @@
+.container_wrapper{
+    display: flexbox;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+} 
+.container{
+    position: absolute;
+    width: 25vw;
+    height: 55vh;
+    align-items: center;
+    justify-content: center;
+    background: #C4C4C4;
+    border: 1px solid rgba(180, 28, 28, 0.12);
+    box-sizing: border-box;
+    margin: 10rem 30rem; 
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #32969C;
+    color: white;
+    font-family: sans-serif;
+}

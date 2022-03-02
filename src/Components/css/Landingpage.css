@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  
+}
+
+.landing_main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #52F5FF;
+    background: -moz-linear-gradient(-45deg, #52F5FF 0%, #FF0000 100%, #7D900B 100%);
+    background: -webkit-linear-gradient(-45deg, #52F5FF 0%, #FF0000 100%, #7D900B 100%);
+    background: linear-gradient(135deg, #52F5FF 0%, #FF0000 100%, #7D900B 100%);
+}
+ .background_img{
+    margin-left: 20%;
+    opacity: 0.5;
+    filter: drop-shadow(0 0 0.75rem rgb(15, 15, 15));
+    height: 41rem;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h2{
+    position: absolute;
+    margin-top: 21rem;
+    background: linear-gradient(90.01deg, #23862D -2.9%, #F80B0B 98.6%);
+    background-clip: text;
+    color: transparent;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(0 0 0.15rem rgb(15, 15, 15));
+    text-shadow: 5px 4px 15px rgba(0, 0, 0, 0.38);
+}
+.logo_img{
+    margin-top: 10rem;
+    height: 7rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19rem;
+    font-size: 2rem;
+    color:#370000 ;
+    font-family:  'Passion One', cursive;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.qote {
+    position: relative;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    filter: drop-shadow(2px 4px 6px black);
+    font-family: Pacifico;
+}
+.btn a{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 39rem;
+    margin-top: 5rem;
+    padding: 0.8rem;
+    width: 6rem;
+    background: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 4px;
+    border:none;
+    
+    
+}
+.btn a:hover{
+
+    background-color: transparent;
+    border: 1px solid white;
+
+
+}
