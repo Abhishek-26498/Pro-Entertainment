@@ -1,3 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.side_bar_wrapper{
+    display: flex;
+    align-items: center;
+    background: rgb(245, 241, 241);
+    width: 20vw;
+    height: 100vh;
+    filter: drop-shadow(-2px 5px 3px black);
+    flex-direction: column;
+}
+a{
+    
+    width: 8rem;
+    top: 6rem;
+    background: #EFEFEF;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: #7e7e7e;
+    font-family: system-ui;
+    margin: 0.9rem 4.5rem;
+
+}
+
+
 /* .side_bar_wrapper{
     position: absolute;
     width: 291px;

@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../css/Sidebar.css'
+import '../Components/css/Sidebar.css'
 function Sidebar() {
     return (
         <>
@@ -10,13 +10,13 @@ function Sidebar() {
                 <a href='/' >RECENT</a>
                 <a href='/' >HISTORY</a>
 
-                <p>About  Press  Copyright  Contact us  Creators  Advertise  Developers
+                {/* <p>About  Press  Copyright  Contact us  Creators  Advertise  Developers
 
                     Terms  Privacy  Policy & Safety
                     How Pro-Entertainment works
                     Test new features
 
-                    © 2022 Google LLC</p>
+                    © 2022 Google LLC</p> */}
 
             </div>
         </>

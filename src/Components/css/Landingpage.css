@@ -18,13 +18,19 @@
     margin-left: 20%;
     opacity: 0.5;
     filter: drop-shadow(0 0 0.75rem rgb(15, 15, 15));
-    height: 41rem;
+    height: 40rem;
+}
+.container{
+    
+    top: -45rem;
+
 }
 .header{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .header h2{
     position: absolute;
@@ -53,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 19rem;
+    margin-top: 6rem;
     font-size: 2rem;
     color:#370000 ;
     font-family:  'Passion One', cursive;
@@ -65,18 +71,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     filter: drop-shadow(2px 4px 6px black);
     font-family: Pacifico;
 }
-.btn a{
-    
+.landing_main .btn{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 39rem;
-    margin-top: 5rem;
+}
+.btn a{
     padding: 0.8rem;
-    width: 6rem;
     background: black;
     text-transform: capitalize;
     text-decoration: none;
@@ -84,8 +89,7 @@
     filter: drop-shadow(2px 4px 6px black);
     border-radius: 4px;
     border:none;
-    
-    
+    margin-top: -3rem;
 }
 .btn a:hover{
 
