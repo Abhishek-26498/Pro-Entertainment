@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const SignIn = () => {
   return (
     <>
-        <h1>Signin</h1>
+        <><Navbar/></>
+        <div><h1>Sign in</h1></div>
     </>
 
 
