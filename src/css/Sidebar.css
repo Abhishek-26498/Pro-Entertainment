@@ -1,43 +1,77 @@
-/* /* *{
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
+
+
 .side_bar_wrapper{
-    display: flex;
-    align-items: center;
-    background: rgb(245, 241, 241);
-    width: 20vw;
-    height: vh;
-    filter: drop-shadow(-2px 5px 3px black);
-    flex-direction: column;
-}
-.side_bar_wrapper a{
     
-    width: 8rem;
-    top: 6rem;
-    /* background: #EFEFEF; */
-    /* border: 1px solid #32969C;
-    text-align: center;
-    text-decoration: none;
-    color: #7e7e7e;
-    font-family: system-ui;
-    margin: 0.9rem 4.5rem; */
-    /* filter: drop-shadow(0px 0px 1px black); */
-    /* height: 1.7rem;
-    padding-top: 5px;
-    cursor: pointer;
-    font-weight: 500;
-}
-.side_bar_wrapper a:hover{
-    background: #32969C;
-    color: white;
-    filter: brightness();
-    filter: drop-shadow(1px 1px 1px black);
+
+    background: #060b26;
+    width: 15rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 3rem;
+    transition: 850ms;
+    left: -100%;
 
 }
+.side_bar_wrapper.active{
+    left: 0;
+    transition: 350ms;
+}
+.nav-menu-items{
+    top: 5rem;
+}
+
+.navbar-toggle{
+    z-index: 1;
+    top: -4rem;
+    left: 9.5rem;
+    font-size: 1.3rem;
+    list-style-type: none;
+    
+
+}
+.navbar-toggle a{
+    color: white;
+}
+.nav-text{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0 8px 16px;
+    list-style: none;
+    height: 60px;
+    position: initial;
+    
+    
+
+}
+.nav-text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 1px 8px 0px;
+    list-style: none;
+    height: 1.5rem;
+    position: initial;
+    transition: none;
+    width: 8rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    background-color: rgb(23, 39, 114);
+
+    
+
+}
+.nav-text a:hover{
+    border: 1px solid white;
+    background: transparent;
+}
+
 .bottom_content{
     display: flex;
+    z-index: 1;
     justify-content: center;
     align-items: center;
 }
@@ -45,7 +79,9 @@ p{
     font-size: 11px;
     text-align: center;
     width: 11rem;
-    top: 10rem;
+    top: 33rem;
+    color: rgb(207, 205, 205);
+   
 }
 
-  */ 
+
