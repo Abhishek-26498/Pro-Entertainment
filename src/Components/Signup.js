@@ -1,31 +1,105 @@
-import React from 'react'
-import './Signup.css'
+import React, { useState } from 'react'
+import Navbar from './Navbar'
+import '../css/Signup.css'
+import tree from '../images/tree.png' 
+import {Link} from 'react-router-dom'
+const Signup = () => {
 
-function Signup() {
-    return (
-        <div>
-            <form >
+  const [userRegisteration, setUserRegisteration] = useState({
+    username:"",
+    email:"",
+    phone:"",
+    password:""
+  });
 
-                <div className='container_wrapper'>
-                <div className="container">
-                    <h2>Sign In</h2>
-                    <label ><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required />
+  const[records, setRecords] =useState([])
 
-                    <label ><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required />
+  const handelInput=(e)=>{
+      const name= e.target.name;
+      const value= e.target.value;
+    
 
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember"/> Remember me
-                    </label>
-                    <button type="submit">Sign In</button>
-                </div>
-                </div>
-                
+      setUserRegisteration({...userRegisteration, [name] : value})
+  }
 
-            </form>
+  const handleSubmit = (e) =>{
+      e.preventDefault();
+      const newRecords = { ...userRegisteration, id:new Date().getTime().toString() }
+      
+      setRecords([...records, newRecords]);
+      console.log(records)
+
+      setUserRegisteration({username:"",email:"",phone:"",password:""})
+  }
+
+  return (
+    <>
+      <Navbar />
+      <div className='Main-container'>
+
+        <div className='left-container'>
+          <img src={tree} alt='tree'/>
         </div>
-    )
+
+        <div className='right-container'>
+          
+          <form className='signin_form' action='' onSubmit={handleSubmit}>
+            <h1>SignUp</h1>
+            <div className='first_input'>
+              <label htmlFor='username'>FullName</label>
+              <input autoComplete='off' type='text' 
+              value={userRegisteration.username}
+              onChange={handelInput}
+              name='username' id='username' />
+            </div>
+            <div className='first_input'>
+              <label htmlFor='email'>E-mail</label>
+              <input autoComplete='off' type='text' 
+              value={userRegisteration.email}
+              onChange={handelInput}
+              name='email' id='email' />
+            </div>
+            <div className='first_input'>
+              <label htmlFor='phone'>Phone</label>
+              <input autoComplete='off' type='text' 
+              value={userRegisteration.phone}
+              onChange={handelInput}
+              name='phone' id='phone' />
+            </div>
+            <div className='first_input'>
+              <label htmlFor='password'>Password</label>
+              <input autoComplete='off' type='password' 
+              value={userRegisteration.password}
+              onChange={handelInput}
+              name='password' id='password' />
+            </div>
+            <p>If you have already account. <Link to='/Signin'>Sign In</Link></p>
+          <button type='submit'>Submit</button>
+          </form>
+          <div>
+            {
+              records.map((currElem)=>{
+                return(
+                  <div className="showDAtaStyle">
+                    <p>{currElem.username}</p>
+                    <p>{currElem.email}</p>
+                    <p>{currElem.phone}</p>
+                    <p>{currElem.password}</p>
+                  </div>
+                )
+              })
+            }
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </>
+
+
+  )
 }
 
 export default Signup

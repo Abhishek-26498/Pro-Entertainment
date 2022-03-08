@@ -27,7 +27,7 @@ const Navbar = () => {
           <input className="search_bar" type="text" placeholder="Search" />
           <button className='search_btn'><FaSearch /></button>
         </form>
-        <div className='signin'> <Link to='/Signin' ><MdAccountCircle /></Link></div>
+        <div className='signin'> <Link to='/Signup' ><MdAccountCircle /></Link></div>
 
 
       </div>

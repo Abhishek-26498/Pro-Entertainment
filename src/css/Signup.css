@@ -1,4 +1,108 @@
-.container_wrapper{
+*{
+    position: initial;
+}
+.Main-container{
+    background: #52F5FF;
+    background: -moz-linear-gradient(-45deg, #52F5FF 0%, #FF0000 100%, #7D900B 100%);
+    background: -webkit-linear-gradient(-45deg, #52F5FF 0%, #FF0000 100%, #7D900B 100%);
+    background: linear-gradient(135deg, #52F5FF 0%, #FF0000 100%, #7D900B 100%);
+    width: 100vw;
+    height: 54.6vw;
+    display: flex;
+    position: relative;
+    
+}
+.left-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.left-container img{
+    width: 28rem;
+    height: 22rem;
+    margin-top: 7rem;
+}
+.right-container h1{
+    background: #060b26;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.right-container{
+    
+    display: flex;
+    flex-direction: column;
+   
+    position: relative;
+  
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.signin_form{
+    width: 16rem;
+    height: 23rem;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 0px 3px black);
+    border-radius: 5px;
+    background-color: white;
+}
+label{
+    font-family: sans-serif;
+    margin-left: 1rem;
+
+    font-size: 1rem;
+
+
+}
+.first_input input{
+    width: 13.5rem;
+    padding: 4px;
+    border: 1px solid gray;
+    margin-left: 1rem;
+}
+.first_input{
+    margin-top: 16px;
+    
+}
+.right-container button{
+    margin-top: 1rem;
+    height: 2rem;
+    border: 1px solid #060b26;
+    font-family: sans-serif;
+    background: transparent;
+    color: #060b26;
+    width: 8rem;
+    margin-left: 1rem;
+}
+.right-container button:hover{
+    background: #060b26;
+    
+    color: white;
+    
+}
+.showDAtaStyle{
+    display: flex;
+    width: 16rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 4rem 7rem;
+}
+.signin_form p{
+    font-size: .8rem;
+    width: 15rem;
+    color: darkgray;
+    margin-top: 0.5rem;
+}
+
+/* .container_wrapper{
     display: flexbox;
     position: relative;
     justify-content: center;
@@ -22,4 +126,4 @@ h2{
     background: #32969C;
     color: white;
     font-family: sans-serif;
-}
+} */

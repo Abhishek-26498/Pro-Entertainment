@@ -1,18 +1,17 @@
 
 
 .side_bar_wrapper{
-    
-
+    z-index: 1;
     background: #060b26;
     width: 15rem;
-    height: 100vh;
+    height: 93vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     position: fixed;
-    top: 3rem;
+    justify-content: center;
     transition: 850ms;
     left: -100%;
-
+    align-items: center;
 }
 .side_bar_wrapper.active{
     left: 0;
@@ -23,12 +22,10 @@
 }
 
 .navbar-toggle{
-    z-index: 1;
-    top: -4rem;
-    left: 9.5rem;
     font-size: 1.3rem;
     list-style-type: none;
-    
+    margin-bottom: 4rem;
+    margin-left: -2rem;
 
 }
 .navbar-toggle a{

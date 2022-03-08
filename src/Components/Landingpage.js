@@ -11,8 +11,8 @@ const Landingpage = () => {
             <div className='landing_main'>
                 <img className='background_img' src={background} alt='backgound' />
             
-                    
-                    <div className='header'>
+                <div className='container_'>
+                <div className='header'>
                         <img className='logo_img' src={logo} alt='' />
                         <h2>Pro-Entertainment</h2>
                     </div>
@@ -25,6 +25,8 @@ const Landingpage = () => {
                     <div className='btn'>
                         <Link to='/MainApp'>Start Listening</Link>
                     </div>
+                    </div>    
+                   
 
              
 
