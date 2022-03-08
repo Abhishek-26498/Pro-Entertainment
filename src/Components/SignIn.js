@@ -62,7 +62,7 @@ const Signin = () => {
               name='password' id='password' />
             </div>
             <p>If you are not register. <Link to='/Signup'>Sign Up</Link></p>
-          <button type='submit'>Submit</button>
+          <button type='submit'>SignIn</button>
           </form>
           <div>
             {

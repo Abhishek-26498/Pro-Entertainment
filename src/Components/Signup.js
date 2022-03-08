@@ -74,7 +74,7 @@ const Signup = () => {
               name='password' id='password' />
             </div>
             <p>If you have already account. <Link to='/Signin'>Sign In</Link></p>
-          <button type='submit'>Submit</button>
+          <button type='submit'>SignUp</button>
           </form>
           <div>
             {
