@@ -8,7 +8,9 @@
     padding: 1rem 1rem;
     color: black;
 }
-
+.nav_fix{
+    position: fixed;
+}
 .Nav_wrapper{
     position: relative;
     width: 100vw;

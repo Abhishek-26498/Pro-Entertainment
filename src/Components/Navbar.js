@@ -14,14 +14,18 @@ const Navbar = () => {
   
   return (
     <>
+ 
 
 
-      <div className= "Nav_wrapper">
+
+      <div className= "Nav_wrapper nav_fix">
         <Link to='#' className='menu-bar'>
           <FaBars onClick={showSidebar}/>
         </Link>
         <div className="Nav_logo">
+          <Link to='/MainApp'>
           <img src={logo} alt='logo' />
+          </Link>
         </div>
         <form>
           <input className="search_bar" type="text" placeholder="Search" />
@@ -45,7 +49,6 @@ const Navbar = () => {
                 
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
-                  
                     <span>{item.title}</span>
                   </Link>
                 </li>
