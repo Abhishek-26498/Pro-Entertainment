@@ -3,6 +3,7 @@ import Landingpage from './Components/Landingpage';
 import MainApp from './Components/MainApp';
 import Signup from './Components/Signup';
 import Signin from './Components/Signin';
+import Library from './Components/Library';
 import { Routes,Route } from 'react-router-dom';
 import Explore from './Components/Explore';
 
@@ -15,6 +16,7 @@ const App = () => {
       <Route path='/signup' element={<Signup/>}/>;
       <Route path='/signin' element={<Signin/>}/>;
       <Route path='/explore' element={<Explore/>}/>;
+      <Route path='/library' element={<Library/>}/>;
     </Routes>
     </>
   )

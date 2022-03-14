@@ -13,7 +13,7 @@ export const SidebarData =[
   },
   {
     title:'LIBRARY',
-    path: '/',
+    path: '/Library',
     cName: 'nav-text '
 
   },
