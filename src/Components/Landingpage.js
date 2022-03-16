@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Landingpage.css';
-import background from '../images/bg.png';
-import logo from '../images/landing-logo.png';
+
+
 import { Link } from "react-router-dom";
 
 
@@ -9,11 +9,11 @@ const Landingpage = () => {
     return (
         <>
             <div className='landing_main'>
-                <img className='background_img' src={background} alt='backgound' />
+                <img className='background_img' src='./images/bg.png' alt='backgound' />
             
                 <div className='container_'>
                 <div className='header'>
-                        <img className='logo_img' src={logo} alt='' />
+                        <img className='logo_img' src='./images/landing-logo.png' alt='' />
                         <h2>Pro-Entertainment</h2>
                     </div>
                     <div className='middle'>

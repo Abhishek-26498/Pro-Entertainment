@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import "../css/Navbar.css"
 import "../css/Sidebar.css"
 import { Link } from "react-router-dom";
-import logo from '../images/LOGO.png'
 import { FaBars, FaSearch } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
@@ -24,7 +23,7 @@ const Navbar = () => {
         </Link>
         <div className="Nav_logo">
           <Link to='/MainApp'>
-          <img src={logo} alt='logo' />
+          <img src='./images/LOGO.png' alt='logo' />
           </Link>
         </div>
         <form>

@@ -64,3 +64,28 @@
     background: #060b26;
     border-radius: 3px;
 }
+.slideshow{
+    height: 25rem;
+   
+    width: 80vw;
+
+}
+.slideshow img{
+    width: 100vw;
+    height: 25rem;
+    border: none;
+}
+.slider_width{
+    width: 8S0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+
+}
+.heading{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 2rem;
+    font-size: 12px;
+}

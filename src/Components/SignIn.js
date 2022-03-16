@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './Navbar'
 import '../css/Signup.css'
-import tree from '../images/tree.png' 
+
 import {Link} from 'react-router-dom'
 const Signin = () => {
 
@@ -38,7 +38,7 @@ const Signin = () => {
       <div className='Main-container'>
 
         <div className='left-container'>
-          <img src={tree} alt='tree'/>
+          <img src='./images/tree.png' alt='tree'/>
         </div>
 
         <div className='right-container'>

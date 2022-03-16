@@ -5,7 +5,6 @@ const Explore = () => {
   return (
     <>
     <Navbar/>
-    <h1>Explore</h1>
     <SlideShow/>
 
     </>

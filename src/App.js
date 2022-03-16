@@ -6,6 +6,7 @@ import Signin from './Components/Signin';
 import Library from './Components/Library';
 import { Routes,Route } from 'react-router-dom';
 import Explore from './Components/Explore';
+import './App.css'
 
 const App = () => {
   return (
