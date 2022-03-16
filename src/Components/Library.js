@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Navbar from './Navbar'
 import '../css/Cards.css'
 import SongsData from './SongsData'
+import { AiOutlineHeart } from "react-icons/ai";
+import { BsThreeDotsVertical } from "react-icons/bs";
 const Library = () => {
 
     const [item, setItems] = useState(SongsData);
@@ -29,8 +31,10 @@ const Library = () => {
                 {item.map((item, index) => {
                     return (
                         <div key={index} className='cards'>
-                            <img src={item.image} />
+                              <img src={item.image} />
+                            <AiOutlineHeart className='heart'/>
                             <p>{item.title}</p>
+                            <button className='dots'><BsThreeDotsVertical  /></button>
                         </div>
                     )
                 })}
