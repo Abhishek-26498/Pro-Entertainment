@@ -67,6 +67,7 @@ label{
     padding: 4px;
     border: 1px solid gray;
     margin-left: 1rem;
+    outline: none;
 }
 .first_input{
     margin-top: 16px;
