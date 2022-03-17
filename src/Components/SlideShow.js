@@ -7,9 +7,6 @@ import SongsData from './SongsData'
 import '../css/Cards.css'
 
 const SlideShow = () => {
-
- 
- 
   const settings = {
     dots: false,
     infinite: true,
@@ -17,36 +14,28 @@ const SlideShow = () => {
     display: true,
     width: 600,
     slidesToShow: 1,
-    slidesToScroll:1,
+    slidesToScroll: 1,
     autoplay: true,
-      speed: 400,
-      autoplaySpeed: 5000,
-      cssEase: "linear"
+    speed: 400,
+    autoplaySpeed: 5000,
+    cssEase: "linear"
   };
   return (
     <>
-  <div className='heading'>
-    <h1>New Release</h1>
-    </div>
-   <Slider className='slider_width'{...settings}>
-    {SongsData.map((item,index)=>{
-            return(
-              
-                   <div key={index} className='slideshow'>
-                     
-                     <img src={item.image} />
-                   
-              </div>
-             
-               
-            )
+      <div className='heading'>
+        <h1>New Release</h1>
+      </div>
+      <Slider className='slider_width'{...settings}>
+        {SongsData.map((item, index) => {
+          return (
+            <div key={index} className='slideshow'>
+              <img src={item.image} />
+            </div>
+          )
         })}
-     </Slider>
-
-
+      </Slider>
     </>
   )
 }
-
 export default SlideShow
 

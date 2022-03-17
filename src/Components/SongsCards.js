@@ -9,22 +9,17 @@ const SongsCards = () => {
     return (
         <>
             <div className='card_container'>
-              
                 {SongsData.map((item, index) => {
                     return (
                         <div key={index} className='cards'>
-                           
                             <img src={item.image} />
-                            <AiOutlineHeart className='heart'/>
+                            <AiOutlineHeart className='heart' />
                             <p>{item.title}</p>
-                            <BsThreeDotsVertical  className='dots'/>
+                            <BsThreeDotsVertical className='dots' />
                         </div>
                     )
                 })}
-
             </div>
-
-
         </>
     )
 }

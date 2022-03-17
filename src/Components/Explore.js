@@ -6,7 +6,6 @@ const Explore = () => {
     <>
     <Navbar/>
     <SlideShow/>
-
     </>
   )
 }

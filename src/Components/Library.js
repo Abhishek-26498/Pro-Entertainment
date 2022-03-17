@@ -24,10 +24,7 @@ const Library = () => {
                 <button className='cat_btn' onClick={() => filterSongs('english')}>English</button>
                 <button className='cat_btn' onClick={() => filterSongs('haryanvi')}>Haryanvi</button>
             </div>
-
-
             <div className='card_container'>
-
                 {item.map((item, index) => {
                     return (
                         <div key={index} className='cards'>

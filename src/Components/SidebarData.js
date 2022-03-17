@@ -1,30 +1,30 @@
-export const SidebarData =[
+export const SidebarData = [
   {
-    title:'HOME',
+    title: 'HOME',
     path: '/MainApp',
     cName: 'nav-text '
 
   },
   {
-    title:'EXPLORE',
+    title: 'EXPLORE',
     path: '/Explore',
     cName: 'nav-text '
 
   },
   {
-    title:'LIBRARY',
+    title: 'LIBRARY',
     path: '/Library',
     cName: 'nav-text '
 
   },
   {
-    title:'RECENT',
+    title: 'RECENT',
     path: '/',
     cName: 'nav-text '
 
   },
   {
-    title:'HISTORY',
+    title: 'HISTORY',
     path: '/',
     cName: 'nav-text '
 

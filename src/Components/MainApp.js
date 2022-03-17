@@ -6,9 +6,7 @@ const MainApp = () => {
   return (
     <>
     <Navbar/>
-   
     <SongsCards/>
-    
     </>
 
 
