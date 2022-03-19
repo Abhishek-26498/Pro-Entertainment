@@ -5,10 +5,11 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 
 import SongsData from './SongsData'
 const SongsCards = () => {
+   
     console.log(SongsData);
     return (
         <>
-            <div className='card_container'>
+            <div className='card_container' >
                 {SongsData.map((item, index) => {
                     return (
                         <div key={index} className='cards'>
@@ -20,8 +21,11 @@ const SongsCards = () => {
                     )
                 })}
             </div>
+           
         </>
+        
     )
+    
 }
 
 export default SongsCards

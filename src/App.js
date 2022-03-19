@@ -7,6 +7,7 @@ import Library from './Components/Library';
 import { Routes,Route } from 'react-router-dom';
 import Explore from './Components/Explore';
 import './App.css'
+
 // import Navbar from './Components/Navbar'
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/explore' element={<Explore/>}/>;
       <Route path='/library' element={<Library/>}/>;
     </Routes>
+    
     </>
   )
 }

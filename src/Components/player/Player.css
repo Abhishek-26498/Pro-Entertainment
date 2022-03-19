@@ -1,0 +1,105 @@
+
+.player {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #F5F1F1;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    margin-left: -8px;
+}
+.song {
+    user-select: none;
+    margin: 0 20px;
+}
+.song__title {
+    text-align: left;
+    margin: 0;
+    color: rgb(42, 42, 42);
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 3.5em;
+  
+}
+.controls {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .player_button {
+    width: fit-content;
+    margin-bottom: 15px;
+    background: transparent;
+    border: none;
+  }
+    .player_button:focus {
+      outline: none;
+    }
+    .player_button:hover {
+      cursor: pointer;
+    
+    }
+     
+
+    .player_button svg {
+        font-size: 4em;
+        color: rgb(37, 37, 37);
+      } 
+    
+      .bar {
+        user-select: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+        .bar__time {
+          color: rgb(44, 44, 44);
+          font-size: 16px;
+        }
+    
+        .bar__progress {
+          flex: 1;
+          border-radius: 5px;
+          margin: 0 20px;
+          height: 10px;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+        }
+          .bar__progress__knob {
+            position: relative;
+            height: 16px;
+            width: 16px;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            background-color: rgb(31, 31, 31);
+          }
+          @media screen and (max-width: 800px) 
+            {}
+             
+            
+        
+            .controls {
+              width: 100%;
+              margin-top: 20px;
+            }
+        
+            .bar {
+              width: 90%;
+            }
+          
+        
+        
+              
+            
+          
+        
+        
+    
+    

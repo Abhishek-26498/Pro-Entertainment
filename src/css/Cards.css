@@ -17,9 +17,9 @@
     justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    background: white;
+    background: rgba(255, 255, 255, 0.801);
     align-items: center;
-    filter: drop-shadow(0px 0px 8px rgba(56, 56, 56, 0.863));
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.863));
     cursor: pointer;
 }
 .cards p{

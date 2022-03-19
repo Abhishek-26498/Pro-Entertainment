@@ -3,12 +3,14 @@ const SongsData = [
     {
         image: './images/hath-chumme.jpg',
         title: 'Hath Chumme',
-        category: 'punjabi'
+        category: 'punjabi',
+        src: './player/songs/Hath Chumme.mp3'
     },
     {
         image: './images/Feelings.jpg',
         title: 'Feelings',
-        category: 'punjabi'
+        category: 'punjabi',
+        src:'./player/songs/Feelings Song Sumit Goswami.mp3'
     },
     {
         image: './images/bijlee.jpg',
